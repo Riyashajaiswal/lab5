@@ -4,7 +4,7 @@
 <head>
 <style>a:link{color:blue;}
 a:visited{color:red;}a:hover{color:hotpink;}a:active{color:green;}
-body{animation: bgcolor 15s infinite }
+div{animation: bgcolor 15s infinite }
 
 @keyframes bgcolor{
 0%{background: #660033;}
@@ -29,23 +29,45 @@ body{animation: bgcolor 15s infinite }
 95%{background: #663366 ;}
 100%{background: #CC6699;}
 
-}
+}body{animation: bg 15s infinite }
 
-</style></head>
+@keyframes bg{
+0%{background: hotpink;}
+5%{background: powderblue;}
+15%{background: lightpink;}
+20%{background: purple ;}
+25%{background: seagreen ;}
+30%{background: lightgreen ;}
+35%{background: darkred;}
+40%{background: yellow;}
+45%{background: tomato ;}
+50%{background: hotpink ;}
+55%{background: saffron;}
+60%{background: skyblue ;}
+65%{background: #663366 ;}
+70%{background: #993366;}
+75%{background: #339999;}
+80%{background: #CC99CC;}
+85%{background: #006666 ;}
+90%{background: orange ;}
+
+95%{background: #663366 ;}
+100%{background: #CC6699;}}
+.navbar-brand{background-color:gray;}</style></head>
 
 <body>
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="https://getbootstrap.com/"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-bootstrap" fill="purple" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z"/>
-  <path fill-rule="evenodd" d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
-</svg></a>
+ <a href="https://getbootstrap.com/"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-bootstrap-fill" fill="purple" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+    </svg></a>
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -79,14 +101,14 @@ body{animation: bgcolor 15s infinite }
 </nav>
 <div class="jumbotron jumbototron-fluid hello">
  <div class="container">
-  
-  
- <font size="9">Hello This is Riyasha Jaiswal</font><br>
-  <font size="5"> I am currently Persuing B.TECH in computer science and engineering (CSE) from National INSTITUTE OF Technology PATNA.</font></p><hr color="black" class="my-4"><font size="4.5">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.It uses utility classes for typography and spacing to space content out within the larger container.</font>
+  <font size="6" color="navy" font-face"algerian">WEBPAGE USING BOOTSTRAP
+  </font>
+ <font size="9">Hello This is Riyasha Jaiswal</font>
+  <br><font size="4.5"> I am currently Persuing B.TECH in computer science and engineering (CSE) from National INSTITUTE OF Technology PATNA. Currently ,I am completing 3rd sem. </font><hr color="black" class="my-4"><font size="4.5">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.It uses utility classes for typography and spacing to space content out within the larger container.</font>
   <div class="container-fluid contact">
 
   
-  <h2><font size="6">KNOW MORE ABOUT BOOTSTRAP<a class="btn btn-primary btn-lg"  role="button" href="https://getbootstrap.com/" >Learn more</a></font></h2>
+  <font size="6">KNOW MORE ABOUT BOOTSTRAP<a class="btn btn-primary btn-lg"  role="button" href="https://getbootstrap.com/" >Learn more</a></font>
 </div></div></div>
 <hr><hr>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
